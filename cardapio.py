@@ -11,4 +11,9 @@ def exibir_cardapio():
    return
 
 def buscar_item(cardapio,id_item):
+   for item in cardapio:
+      if item["id"]== id_item:
+         return item
+   return None  
+
    
